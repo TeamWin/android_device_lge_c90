@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifneq ($(filter c90n,$(TARGET_DEVICE)),)
+ifneq ($(filter c90,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 

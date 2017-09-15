@@ -18,8 +18,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := c90n
-PRODUCT_NAME := full_c90n
+PRODUCT_DEVICE := c90
+PRODUCT_NAME := full_c90
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := LG-H525n
 PRODUCT_MANUFACTURER := LGE
