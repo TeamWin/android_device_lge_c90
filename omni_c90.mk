@@ -17,6 +17,6 @@
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-$(call inherit-product, device/lge/c90n/full_c90.mk)
+$(call inherit-product, device/lge/c90/full_c90.mk)
 
 PRODUCT_NAME := omni_c90
